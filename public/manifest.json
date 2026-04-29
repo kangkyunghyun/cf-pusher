@@ -26,5 +26,17 @@
   "host_permissions": [
     "https://codeforces.com/*",
     "https://cfpusher-backend.onrender.com/*"
-  ]
+  ],
+  "oauth2": {
+    "client_id": "Ov23liZwEyp8gsCsQOPb",
+    "scopes": [
+      "repo"
+    ]
+  },
+  "oauth2_codeforces": {
+    "client_id": "8MSpWYVSzdl3HD4rIwwcdPKBIUu8WIZp",
+    "scopes": [
+      "openid"
+    ]
+  }
 }
