@@ -207,7 +207,7 @@ const syncSingleAcceptedSubmission = async ({
     programmingLanguage,
   } = submission;
 
-  const folderName = `${contestId}/${index} - ${problemName}`;
+  const folderName = `Codeforces/${contestId}/${index} - ${problemName}`;
   const extension = getExtensionFromLanguage(programmingLanguage);
   const filePath = `${folderName}/solution.${extension}`;
   const readmePath = `${folderName}/README.md`;
